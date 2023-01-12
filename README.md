@@ -56,7 +56,7 @@ Ejemplo: “Yo como usuario [visitante del sitio] quiero poder VER todos lxs pos
 - “Yo como usuaria quisiera poder filtrar información (publicaciones, personas, artículos, etc.) de mi interés.”
 
 
-## 6. Imagen del prototipo final
+## 6. Prototipo final
 
 [![imagen-prototipo.png](https://i.postimg.cc/jSMjRb9k/imagen-prototipo.png)](https://postimg.cc/cv8WcVdQ)
 
