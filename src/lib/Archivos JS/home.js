@@ -36,6 +36,7 @@ export const home = () => {
 
   buttonRegister.addEventListener('click', () => onNavigate('/register'));
   buttonLogin.addEventListener('click', () => onNavigate('/login'));
+
   homeDiv.appendChild(containerLanding);
   containerLanding.appendChild(containerElements);
   containerLanding.appendChild(containerImg);
