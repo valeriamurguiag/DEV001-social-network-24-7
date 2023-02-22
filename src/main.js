@@ -52,16 +52,17 @@ export const onNavigate = (pathname, routesList = routes) => {
   }
 };
 
-export const getPath = (path) => {
-  const publicUrlPath = /DEV001-social-network-24-7(.*)/;
-  const match = (publicUrlPath).exec(path);
-  // in preview mode, we are in prod build, but previewing locally so url is localhost
-  return (import.meta.env.PROD && match && match.length === 2) ? match[1] : path; //eslint-disable-line
-}
+// export const getPath = (path) => {
+//   const publicUrlPath = /DEV001-social-network-24-7(.*)/;
+//   const match = (publicUrlPath).exec(path);
+//   // in preview mode, we are in prod build, but previewing locally so url is localhost
+// eslint-disable-next-line max-len
+//   return (import.meta.env.PROD && match && match.length === 2) ? match[1] : path; //eslint-disable-line
+// }
 
 // onpopstate, es un evento de windows que se dispara
 // realizando una acción en el navegador como volver.
 window.onpopstate = () => {
-  onNavigate(getPath(window.location.pathname));
+  onNavigate(window.location.pathname);
 };
-window.addEventListener('load', () => onNavigate(getPath(window.location.pathname)));
+window.addEventListener('load', () => onNavigate(window.location.pathname));
