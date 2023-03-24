@@ -2,7 +2,7 @@
 
 ## Índice
 
-* [1. Resumen del proyecto](#2-resumen-del-proyecto)
+* [1. Resumen del proyecto](#1-resumen-del-proyecto)
 * [2. Imagen final del proyecto](#2-imagen-final-del-proyecto)
 * [3. Investigación UX: Quiénes son los usuarios y los objetivos en relación con el producto](#2-investigación-ux-quiénes-son-los-usuarios-y-los-objetivos-en-relación-con-el-producto)
 * [4. Investigación UX: Cómo el producto soluciona los problemas/necesidades de dichos usuarios](#4-investigación-ux-cómo-el-producto-soluciona-los-problemasnecesidades-de-dichos-usuarios)
